@@ -3,13 +3,6 @@
     <TargetFramework>netstandard1.4</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="**\*.cs" />
-    <EmbeddedResource Include="**\*.resx" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="NETStandard.Library" Version="1.6" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Library1\Library1.csproj" />
     <ProjectReference Include="..\Library4\Library4.csproj" />
   </ItemGroup>
